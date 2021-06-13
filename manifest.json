@@ -1,0 +1,19 @@
+{
+    "name": "Disable Backspace",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "A chrome extension which disables backspace key",
+    "content_scripts": [
+      {
+          "matches": [
+            "*://*/*"
+          ],
+          "js": [
+              "main.js"
+          ]
+      }
+    ],
+    "permissions": [
+      "input"
+    ]
+  }
