@@ -3,6 +3,11 @@
     "version": "0.1",
     "manifest_version": 3,
     "description": "A chrome extension which disables backspace key",
+    "icons": {
+      "128" : "icon128.png",
+      "48" : "icon48.png",
+      "16" : "icon16.png"
+    },
     "content_scripts": [
       {
           "matches": [
